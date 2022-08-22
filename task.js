@@ -17,7 +17,7 @@ for (let i = 1; i < printGenapGanjil; i++) {
 }
 
 // Soal 3
-function polaSegitiga(x) {
+function printSegitiga(x) {
   let angkaAwal = 0;
   for (let i = 0; i <= x; i++) {
     for (let j = 0; j <= i; j++) {
@@ -28,4 +28,4 @@ function polaSegitiga(x) {
   return console.log(angkaAwal);
 }
 
-polaSegitiga(5);
+printSegitiga(5);
