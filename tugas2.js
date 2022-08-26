@@ -98,8 +98,8 @@ console.log(data3);
 
 // Soal 3.b
 // Tanpa destructuring
-// const primary = data.phone.primary;
-// const secondary = data.phone.secondary;
+const primary = data.phone.primary;
+const secondary = data.phone.secondary;
 // Setelah destructuring
 const { primary, secondary } = data.phone;
 
